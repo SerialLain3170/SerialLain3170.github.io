@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="/theme/pygments/github.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/solid.css">
+
+
+
+
+  <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="lain Atom">
+
+
+
+ 
+
+<meta name="author" content="lento" />
+<meta name="description" content="Introduction I have created and managed a repository, named AwesomeAnimeResearch for more than two years (the first commit was at 04/27/2020). Thanks to contributors and issue builders, we have collected more than 250 papers related to anime, illustration, and comic. I would like to explain motivation to create …" />
+<meta name="keywords" content="cs">
+
+
+  <meta property="og:site_name" content="lain"/>
+  <meta property="og:title" content="AwesomeAnimeResearch: Past, Present, and Future"/>
+  <meta property="og:description" content="Introduction I have created and managed a repository, named AwesomeAnimeResearch for more than two years (the first commit was at 04/27/2020). Thanks to contributors and issue builders, we have collected more than 250 papers related to anime, illustration, and comic. I would like to explain motivation to create …"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="/1-awesomeanimeresearch.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2022-11-24 00:00:00+09:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="/author/lento.html">
+  <meta property="article:section" content="cs"/>
+  <meta property="article:tag" content="cs"/>
+  <meta property="og:image" content="">
+
+  <title>lain &ndash; AwesomeAnimeResearch: Past, Present, and Future</title>
+
+
+</head>
+<body class="light-theme">
+
+<aside>
+  <div>
+    <a href="/">
+      <img src="/theme/img/profile.png" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="/"></a>
+    </h1>
+
+
+
+    <nav>
+      <ul class="list">
+
+
+
+          <li>
+            <a target="_self" href="about.html#about" >About Me</a>
+          </li>
+          <li>
+            <a target="_self" href="https://medium.com/@crosssceneofwindff" >Medium</a>
+          </li>
+          <li>
+            <a target="_self" href="https://scrapbox.io/serialexperimentscrie/" >Scrapbox</a>
+          </li>
+          <li>
+            <a target="_self" href="https://soundcloud.com/lento-3" >SoundCloud</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/NieA7_3170"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/SerialLain3170"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/so-hasegawa-5aa509169/"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="1-awesomeanimeresearch">AwesomeAnimeResearch: Past, Present, and Future</h1>
+    <p>
+      Posted on Thu 24 November 2022 in <a href="/category/cs.html">cs</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <h2>Introduction</h2>
+<p>I have created and managed a repository, named <a href="https://github.com/SerialLain3170/AwesomeAnimeResearch">AwesomeAnimeResearch</a> for more than two years (the first commit was at 04/27/2020). Thanks to contributors and issue builders, we have collected more than 250 papers related to anime, illustration, and comic. I would like to explain motivation to create the repository, design, present challenges, and future plans.</p>
+<h2>Motivation</h2>
+<p>Until I created the repository, I used to take a look at <a href="https://github.com/shubhampachori12110095/DeepLearningAnimePapers">DeepLearningAnimePapers</a> to investigate papers related to anime. Since it had stopped updates in 2018, I had possessed a desire to create awesome-list for anime papers that contains a massive and exciting collection. Therefore, <a href="https://twitter.com/NieA7_3170/status/1258700433356283910?s=20&amp;t=PrGYp5veSVDrUamtQqjMCg">I started to manage AwesomeAnimeResearch</a>.</p>
+<h2>Design</h2>
+<ul>
+<li>In the first place, what is the definition of "papers related to anime, illustration, and comic"? I have defined it as the published or preprint papers that explicitly include applications for these fields. For example, if the paper is about image generation and includes the generated figures of not only human faces but also anime characters, the paper clearly shows potentials for anime applications. Of course, since the definition is from all my perspectives, I am willing to discuss the appropriate definition.</li>
+<li>There are 2 categories of resources in AwesomeAnimeResearch: paper and project. Papers are the papers in accordance with the definition that I stated. Projects are not the papers but they are tech reports or github repositories that have contributed to promoting machine learning research related to anime (e.g. <a href="https://make.girls.moe/#/">makegirlsmoe</a> or <a href="https://github.com/lllyasviel/style2paints">style2paints</a>). </li>
+<li>I have set 21 categories like below based on my perspective, and four categories have their own subcategories.</li>
+</ul>
+<div class="highlight"><pre><span></span><code>- Dataset
+- Image Generation
+  |- Generation
+  |- Few-shot
+  |- Interpretability
+  |- Montage
+- Image-to-Image Translation
+  |- Face2anime
+  |- Selfie2anime
+  |- Photo2anime
+  |- Sketch2anime
+  |- Photo2manga
+  |- Anime2costume
+  |- Style transfer
+  |- Author style transfer
+- Automatic Line Art Colorization
+  |- NoHint
+  |- Atari
+  |- Reference
+  |- Tag
+  |- Video
+- Automatic Character Lighting
+- Automatic Illustration Editing
+- Automatic Sketch Editing
+- Automatic Animation Inbetweening
+- Automatic Image Enhancement
+- Character Animating
+- Manga Application
+  |- Generation
+  |- Restoration
+  |- Inpainting
+  |- Text detection
+  |- Landmark detection
+  |- Segmentation
+  |- Translation
+  |- Depth estimation
+  |- Vectorization
+  |- Re-identification
+- Representation Learning
+- Pose Estimation
+- Image Retrieval
+- Visual Correspondence
+- Character Recognition
+- 3D Character Creation
+- Robotics
+- Speech Synthesis
+- Adult Content Detection
+- Survey
+</code></pre></div>
+
+<ul>
+<li>When it comes to the papers, each record has three or four fields depending on the existence of subcategories.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="o">-</span><span class="w"> </span><span class="nv">Subcategory</span><span class="w"> </span><span class="ss">(</span><span class="nv">optional</span><span class="ss">)</span>:<span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">category</span><span class="w"> </span><span class="nv">does</span><span class="w"> </span><span class="nv">not</span><span class="w"> </span><span class="nv">have</span><span class="w"> </span><span class="nv">subcategories</span>,<span class="w"> </span><span class="nv">this</span><span class="w"> </span><span class="nv">field</span><span class="w"> </span><span class="nv">does</span><span class="w"> </span><span class="nv">not</span><span class="w"> </span><span class="nv">exist</span><span class="w"></span>
+<span class="o">-</span><span class="w"> </span><span class="nv">Paper</span><span class="w"> </span><span class="ss">(</span><span class="nv">required</span><span class="ss">)</span>:<span class="w"> </span><span class="nv">The</span><span class="w"> </span><span class="nv">link</span><span class="w"> </span><span class="nv">and</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">paper</span><span class="w"></span>
+<span class="o">-</span><span class="w"> </span><span class="nv">Conference</span><span class="w"> </span><span class="ss">(</span><span class="nv">optional</span><span class="ss">)</span>:<span class="w"> </span><span class="nv">The</span><span class="w"> </span><span class="nv">abbreviated</span><span class="w"> </span><span class="nv">form</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">conference</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="nv">including</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">year</span><span class="w"></span>
+<span class="o">-</span><span class="w"> </span><span class="nv">Links</span><span class="w"> </span><span class="ss">(</span><span class="nv">optional</span><span class="ss">)</span>:<span class="w"> </span><span class="nv">Webpages</span><span class="w"> </span><span class="nv">describing</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">paper</span><span class="w"> </span><span class="nv">aside</span><span class="w"> </span><span class="nv">from</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">published</span><span class="w"> </span><span class="nv">paper</span><span class="w"> </span><span class="ss">(</span><span class="nv">e</span>.<span class="nv">g</span>.<span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="nv">Github</span><span class="w"> </span><span class="nv">repository</span><span class="w"> </span><span class="nv">or</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="nv">specific</span><span class="w"> </span><span class="nv">webpage</span><span class="ss">)</span>.<span class="w"> </span><span class="nv">Multiple</span><span class="w"> </span><span class="nv">sources</span><span class="w"> </span><span class="nv">are</span><span class="w"> </span><span class="nv">OK</span><span class="w"></span>
+</code></pre></div>
+
+<ul>
+<li>As for the projects, each record has the link and the name of the project. If the project is about the tech report and the webpage, the title is treated as the name. If the project is about the github repository, a combination of the username and the name of the repository corresponds to the name.</li>
+</ul>
+<h2>Present Challenges</h2>
+<ul>
+<li>Diversity</li>
+<li>There are two aspects about the diversity: number of papers and uniqueness.<ul>
+<li>Number of papers: I have noticed that the current version of AwesomeAnimeResearch lacks papers among several categories. Some categories include abundant papers, and others do not. I have to admit that the lack comes from my interests. Although several issue builders and contributers have mitigated the problem, there seems still be imbalanced with respect to the number of papers. Moreover, the categorization that I showed in the design section is not expected for researchers working on speech processing and natural language processing because the current categories lack papers related to the areas.</li>
+<li>Uniqueness: Papers among some categories would be overabundant because several pairs of the papers in one category mostly resemble each other. The truncation would be imperative to enable users to access to the desired paper faster.</li>
+</ul>
+</li>
+<li>Completeness</li>
+<li>A lot of dead links for the paper and blanks in the conference name exist. Especially as for the former problem, it significantly decreases the accessibility of users.</li>
+</ul>
+<h2>Future Plans</h2>
+<ul>
+<li>I will continue to add papers and projects to the repository via a search in reddit and google scholar. I also always accept issues and PR from others. Especially the latter leads to mitigating the problems of diversity. On the other hand, I am thinking about creating the script to search papers related to each category. This script would not only solve the problem of dead links and blanks but also enhance the objectiveness in searching the papers. If you have questions, corrections, or suggestions, I am willing to welcome and discuss them via Github Issue.</li>
+</ul>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/cs.html">cs</a>
+    </p>
+  </div>
+
+
+
+
+
+
+</article>
+
+<footer>
+<p>&copy;  </p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " lain ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+</body>
+</html>
