@@ -32,13 +32,13 @@
  
 
 <meta name="author" content="lento" />
-<meta name="description" content="Introduction This paper proposes a novel deep learning-based approach to predict new 3D protein structures with new amino acid sequences using hallucination technique." />
+<meta name="description" content="Introduction This paper proposes a novel deep learning-based approach to predict new 3D protein structures with new amino acid sequences using hallucination technique. Although deep learning has contributed to predicting new 3D structures from existing amino acid sequences and new sequences from 3D structures, predicting 3D protein structures with new …" />
 <meta name="keywords" content="biology">
 
 
   <meta property="og:site_name" content="lain"/>
   <meta property="og:title" content="Reading Memo: De novo protein design by deep network hallucination"/>
-  <meta property="og:description" content="Introduction This paper proposes a novel deep learning-based approach to predict new 3D protein structures with new amino acid sequences using hallucination technique."/>
+  <meta property="og:description" content="Introduction This paper proposes a novel deep learning-based approach to predict new 3D protein structures with new amino acid sequences using hallucination technique. Although deep learning has contributed to predicting new 3D structures from existing amino acid sequences and new sequences from 3D structures, predicting 3D protein structures with new …"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content="/2-hallucination.html"/>
   <meta property="og:type" content="article"/>
@@ -76,6 +76,9 @@
             <a target="_self" href="about.html#about" >About Me</a>
           </li>
           <li>
+            <a target="_self" href="https://scholar.google.com/citations?user=tzKL43UAAAAJ&hl=en" >Google Scholar</a>
+          </li>
+          <li>
             <a target="_self" href="https://medium.com/@crosssceneofwindff" >Medium</a>
           </li>
           <li>
@@ -83,6 +86,12 @@
           </li>
           <li>
             <a target="_self" href="https://soundcloud.com/lento-3" >SoundCloud</a>
+          </li>
+          <li>
+            <a target="_self" href="https://bookmeter.com/users/1378090" >Bookmeter</a>
+          </li>
+          <li>
+            <a target="_self" href="https://www.imdb.com/user/ur159598675/?ref_=nv_usr_prof_2" >IMDb</a>
           </li>
       </ul>
     </nav>
@@ -129,7 +138,11 @@
 
   <div>
     <h2>Introduction</h2>
-<p>This paper proposes a novel deep learning-based approach to predict new 3D protein structures with new amino acid sequences using hallucination technique. </p>
+<p>This paper proposes a novel deep learning-based approach to predict new 3D protein structures with new amino acid sequences using hallucination technique. Although deep learning has contributed to predicting new 3D structures from existing amino acid sequences and new sequences from 3D structures, predicting 3D protein structures with new sequences has not been tackled. I would like to explain the paper by focusing on algorithm parts and technical limitations.</p>
+<h2>DeepDream</h2>
+<p>Before diving into the hallucination technique, I have to elucidate DeepDream because the paper refers to the algorithm. DeepDream is the deep learning-based algorithm that produces much bizarre images from input images by emphasizing the particular parts of the input images. Given the pre-trained model trained with a dataset including a lot of dog images, the model tries to detect dogs in images regardless of existence of dogs. If the input image is about a sky and contains clouds that look like dogs, the model taking the image as the input tends to focus on these regions, and the patterns of activated neurons to detect dogs are observed in the model. After setting these patterns as "loss" and backpropagating the loss to the inputs, the input image is modified so that the model succeeds in detecting dogs with high accuracy. The modification leads to the image that has dog-like clouds.</p>
+<h2>Algorithm</h2>
+<p>Let us dive into the algorithm of the hallucination technique for designing 3D protein structures with new amino acid sequences. </p>
   </div>
   <div class="tag-cloud">
     <p>

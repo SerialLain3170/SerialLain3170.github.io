@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lain</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-11-29T00:00:00+09:00</updated><entry><title>Reading Memo: De novo protein design by deep network hallucination</title><link href="/2-hallucination.html" rel="alternate"></link><published>2022-11-25T00:00:00+09:00</published><updated>2022-11-25T00:00:00+09:00</updated><author><name>lento</name></author><id>tag:None,2022-11-25:/2-hallucination.html</id><content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;This paper proposes a novel deep learning-based approach to predict new 3D protein structures with new amino acid sequences using hallucination technique. &lt;/p&gt;</content><category term="biology"></category><category term="biology"></category></entry><entry><title>AwesomeAnimeResearch: Past, Present, and Future</title><link href="/1-awesomeanimeresearch.html" rel="alternate"></link><published>2022-11-24T00:00:00+09:00</published><updated>2022-11-24T00:00:00+09:00</updated><author><name>lento</name></author><id>tag:None,2022-11-24:/1-awesomeanimeresearch.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lain</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-11-29T00:00:00+09:00</updated><entry><title>Reading Memo: De novo protein design by deep network hallucination</title><link href="/2-hallucination.html" rel="alternate"></link><published>2022-11-25T00:00:00+09:00</published><updated>2022-11-25T00:00:00+09:00</updated><author><name>lento</name></author><id>tag:None,2022-11-25:/2-hallucination.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This paper proposes a novel deep learning-based approach to predict new 3D protein structures with new amino acid sequences using hallucination technique. Although deep learning has contributed to predicting new 3D structures from existing amino acid sequences and new sequences from 3D structures, predicting 3D protein structures with new …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This paper proposes a novel deep learning-based approach to predict new 3D protein structures with new amino acid sequences using hallucination technique. Although deep learning has contributed to predicting new 3D structures from existing amino acid sequences and new sequences from 3D structures, predicting 3D protein structures with new sequences has not been tackled. I would like to explain the paper by focusing on algorithm parts and technical limitations.&lt;/p&gt;
+&lt;h2&gt;DeepDream&lt;/h2&gt;
+&lt;p&gt;Before diving into the hallucination technique, I have to elucidate DeepDream because the paper refers to the algorithm. DeepDream is the deep learning-based algorithm that produces much bizarre images from input images by emphasizing the particular parts of the input images. Given the pre-trained model trained with a dataset including a lot of dog images, the model tries to detect dogs in images regardless of existence of dogs. If the input image is about a sky and contains clouds that look like dogs, the model taking the image as the input tends to focus on these regions, and the patterns of activated neurons to detect dogs are observed in the model. After setting these patterns as "loss" and backpropagating the loss to the inputs, the input image is modified so that the model succeeds in detecting dogs with high accuracy. The modification leads to the image that has dog-like clouds.&lt;/p&gt;
+&lt;h2&gt;Algorithm&lt;/h2&gt;
+&lt;p&gt;Let us dive into the algorithm of the hallucination technique for designing 3D protein structures with new amino acid sequences. &lt;/p&gt;</content><category term="biology"></category><category term="biology"></category></entry><entry><title>AwesomeAnimeResearch: Past, Present, and Future</title><link href="/1-awesomeanimeresearch.html" rel="alternate"></link><published>2022-11-24T00:00:00+09:00</published><updated>2022-11-24T00:00:00+09:00</updated><author><name>lento</name></author><id>tag:None,2022-11-24:/1-awesomeanimeresearch.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I have created and managed a repository, named &lt;a href="https://github.com/SerialLain3170/AwesomeAnimeResearch"&gt;AwesomeAnimeResearch&lt;/a&gt; for more than two years (the first commit was at 04/27/2020). Thanks to contributors and issue builders, we have collected more than 250 papers related to anime, illustration, and comic. I would like to explain motivation to create …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I have created and managed a repository, named &lt;a href="https://github.com/SerialLain3170/AwesomeAnimeResearch"&gt;AwesomeAnimeResearch&lt;/a&gt; for more than two years (the first commit was at 04/27/2020). Thanks to contributors and issue builders, we have collected more than 250 papers related to anime, illustration, and comic. I would like to explain motivation to create the repository, design, present challenges, and future plans.&lt;/p&gt;
 &lt;h2&gt;Motivation&lt;/h2&gt;
@@ -97,9 +102,10 @@
 &lt;/ul&gt;
 &lt;h2&gt;Publications and Conferences&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://onepetro.org/SPEADIP/proceedings-abstract/20ADIP/3-20ADIP/D031S080R004/452202"&gt;Facilitating the Identification of the Nannofossil Species in Cretaceous of Abu Dhabi Using Artificial Intelligence&lt;/a&gt;&lt;br&gt;
-  H. Tamamura, M. Yamanaka, S. Chiyonobu, G. Yamada, S. Hasegawa, Y. Totake, T. Nanjo&lt;br&gt;
-  In Abu Dhabi International Petroleum Exhibition …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;Personal Information&lt;/h2&gt;
+&lt;li&gt;&lt;a href="https://openaccess.thecvf.com/content/WACV2023/html/Hasegawa_Improving_Predicate_Representation_in_Scene_Graph_Generation_by_Self-Supervised_Learning_WACV_2023_paper.html"&gt;Improving Predicate Representation in Scene Graph Generation by Self-Supervised Learning&lt;/a&gt;&lt;br&gt;
+  S. Hasegawa, M. Hiromoto, A. Nakagawa, Y. Umeda&lt;br&gt;
+  In IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://onepetro.org/SPEADIP/proceedings-abstract/20ADIP/3-20ADIP/D031S080R004/452202"&gt;Facilitating the Identification of the …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;Personal Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Name: So Hasegawa&lt;/li&gt;
 &lt;li&gt;Age: 28&lt;/li&gt;
@@ -107,6 +113,9 @@
 &lt;/ul&gt;
 &lt;h2&gt;Publications and Conferences&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://openaccess.thecvf.com/content/WACV2023/html/Hasegawa_Improving_Predicate_Representation_in_Scene_Graph_Generation_by_Self-Supervised_Learning_WACV_2023_paper.html"&gt;Improving Predicate Representation in Scene Graph Generation by Self-Supervised Learning&lt;/a&gt;&lt;br&gt;
+  S. Hasegawa, M. Hiromoto, A. Nakagawa, Y. Umeda&lt;br&gt;
+  In IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://onepetro.org/SPEADIP/proceedings-abstract/20ADIP/3-20ADIP/D031S080R004/452202"&gt;Facilitating the Identification of the Nannofossil Species in Cretaceous of Abu Dhabi Using Artificial Intelligence&lt;/a&gt;&lt;br&gt;
   H. Tamamura, M. Yamanaka, S. Chiyonobu, G. Yamada, S. Hasegawa, Y. Totake, T. Nanjo&lt;br&gt;
   In Abu Dhabi International Petroleum Exhibition &amp;amp; Conference, 2020&lt;/li&gt;
@@ -196,5 +205,6 @@
 &lt;ul&gt;
 &lt;li&gt;All the computer science fields&lt;/li&gt;
 &lt;li&gt;Visual arts: watching all kinds of arts, visiting art museums, and learning art history&lt;/li&gt;
+&lt;li&gt;Travel and watch nature&lt;/li&gt;
 &lt;li&gt;Books: computer science, biology, art, and finance&lt;/li&gt;
 &lt;/ul&gt;</content><category term="about"></category><category term="about"></category></entry></feed>
