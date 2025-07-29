@@ -1,0 +1,6 @@
+.DS_Store
+css/
+img/
+themes/
+output/
+pelican-plugins
