@@ -1,1 +1,6 @@
-theme: jekyll-theme-midnight
+title: serial.experiments.so
+description: Memories are records.
+show_downloads: true
+google_analytics:
+url: SerialLain3170.github.io
+theme: jekyll-theme-cayman

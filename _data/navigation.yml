@@ -1,0 +1,27 @@
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: CV
+  url: /cv/
+- title: Articles
+  url: /articles/
+  subitems:
+    - title: All Articles
+      url: /articles/
+    - title: Computer Science
+      url: /articles/computer-science/
+    - title: Machine Learning
+      url: /articles/machine-learning/
+    - title: Biology
+      url: /articles/biology/
+    - title: Art
+      url: /articles/art/
+    - title: History
+      url: /articles/history/
+    - title: Travel
+      url: /articles/travel/
+    - title: Books
+      url: /articles/books/
+    - title: Subculture
+      url: /articles/subculture/
