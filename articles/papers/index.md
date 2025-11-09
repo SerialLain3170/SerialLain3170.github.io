@@ -1,6 +1,6 @@
 ---
 layout: article # Using our custom category layout
-title: subculture/読んだ論文
+title: papers/読んだ論文
 permalink: /articles/papers/
 category_name: papers # Custom variable to filter posts
 ---

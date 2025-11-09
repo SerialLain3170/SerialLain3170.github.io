@@ -11,12 +11,15 @@ permalink: /cv
 
 ## Publications, Conferences and Talks
 ### Peer reviewed
+- [AutoDW-TS: Automated Data Wrangling for Time-Series Data](https://dl.acm.org/doi/10.1145/3746252.3761524)
+  L. Liu, **S. Hasegawa**, SK. Sampat, M. Bahrami, WP. Chen, K. Toyota, T. Kato, T. Akazaki, A. Ura, T. Asai
+  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM), 2025
 - [AutoDW: Automatic Data Wrangling Leveraging Large Language Models](https://dl.acm.org/doi/abs/10.1145/3691620.3695267)
   L. Liu, **S. Hasegawa**, SK. Sampat, M. Xenochristou, WP. Chen, T. Kato, T. Kakibuchi, T. Asai
   In Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2024
 - [Regression-Stratified Sampling for Optimized Algorithm Selection in Time-Constrained Tabular AutoML](https://openreview.net/pdf?id=Wq8GG3j1o3)
   M. Bahrami, **S. Hasegawa**, L. Liu, WP. Chen
-  In ICML Workshop on Structured Probabilistic Inference {\&} Generative Modeling, 2024
+  In ICML Workshop on Structured Probabilistic Inference & Generative Modeling, 2024
 - [Multi-Rate VAE: Train Once, Get the Full Rate-Distortion Curve](https://openreview.net/forum?id=OJ8aSjCaMNK)  
   J. Bae, M. R. Zhang, M. Ruan, E. Wang, **S. Hasegawa**, J. Ba, R. Grosse  
   In International Conference on Learning Representations (ICLR), 2023
@@ -50,9 +53,9 @@ permalink: /cv
 - Apr 2012 ~ Mar 2016: BEng in Electrical and Electronic Engineering at Kyoto University
 
 ## Work Experience
-- Oct 2022 ~ : machine learning researcher at Fujitsu Research of America
+- Oct 2022 ~ : senior researcher at Fujitsu Research of America
     - My research is focused on automation of data analysis
-- Aug 2021 ~ Sep 2022: machine learning researcher at Fujitsu Research
+- Aug 2021 ~ Sep 2022: researcher at Fujitsu Research
     - My research was focused on scene graph generation, self-supervised learning, and generative models
 - Sep 2019 - Jan 2020: research assistant at SYMBOL
     - My work was focused on developing deep learning-based solutions to extract essential information from 3D data (point cloud, mesh, multi-view)
@@ -70,7 +73,7 @@ permalink: /cv
   
 ## Skills
 - Computer Science
-    - Machine Learning, Deep learning
+    - Machine Learning: Deep learning, LLM
     - Signal Processing: Computer vision, Speech processing
     - Low-level Programming: Emulators of NES, GB, CGB
     - Programming Language: Python, Go, C
@@ -80,4 +83,5 @@ permalink: /cv
     - Tools: Docker, Docker-compose, Git, Gitlab, Github, MySQL, PostgreSQL, MongoDB, Nodejs, gRPC, Nginx, RabbitMQ
 - Language
     - Japanese: native
-    - English: advanced (TOEFL: 96, IELTS: 7.0, GRE: V153/Q170/AW3.5)
+    - English: professional
+    - Chinese: elementary
